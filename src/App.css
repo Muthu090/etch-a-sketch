@@ -1,0 +1,54 @@
+ 
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+ 
+.draw-area {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ 
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item label {
+  font-size: 1rem;
+  color: #555;
+}
+
+.menu-item input[type="color"] {
+  border: none;
+  cursor: pointer;
+}
+
+.menu-item input[type="range"] {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
